@@ -10,7 +10,7 @@
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img alt="Frappe / ERPNext" src="https://img.shields.io/badge/Frappe%20%7C%20ERPNext-0089FF?style=for-the-badge&logo=frappe&logoColor=white" />
+  <img alt="Frappe" src="https://img.shields.io/badge/Frappe-0089FF?style=for-the-badge&logo=frappe&logoColor=white" />
   <br/>
   <img alt="Hyperledger Fabric" src="https://img.shields.io/badge/Hyperledger%20Fabric-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white" />
   <img alt="Cardano" src="https://img.shields.io/badge/Cardano-0033AD?style=for-the-badge&logo=cardano&logoColor=white" />
@@ -34,7 +34,7 @@ Axina Group builds integrated business platforms that combine enterprise resourc
 
 ### 🏢 AXERP: Enterprise Resource Planning
 
-AXERP is Axina Group's ERP platform, built on ERPNext and the Frappe Framework. It brings accounting, inventory, manufacturing, assets, and projects into a single system, so a business doesn't need separate tools for each function. AXERP is also the foundation the rest of our platforms connect to.
+AXERP is Axina Group's ERP platform, built on the Frappe Framework. It brings accounting, inventory, manufacturing, assets, and projects into a single system, so a business doesn't need separate tools for each function. AXERP is also the foundation the rest of our platforms connect to.
 
 **Key capabilities**
 - **Accounting**: record transactions, manage cash flow, and run financial reports
@@ -73,13 +73,13 @@ Carbon AI is a Frappe app for planning and evaluating REDD+ forest carbon projec
 - **Project summary**: mapped area, results table, and a plain-English project explanation
 - **Tokenization (experimental)**: mint serialized carbon credits as Cardano native assets, with ERP inventory tracking
 
-**Tech stack:** Python · JavaScript · Frappe / ERPNext · Leaflet · AWS SageMaker · Terraform · Cardano · Jupyter
+**Tech stack:** Python · JavaScript · Frappe / AXERP · Leaflet · AWS SageMaker · Terraform · Cardano · Jupyter
 
 ---
 
 ### 🏛️ Carbon Onboarding: Government Onboarding Workflow
 
-Carbon Onboarding is a Frappe/ERPNext app that runs the government onboarding workflow for carbon projects on ERP sites. It handles project registration and approval from start to finish.
+Carbon Onboarding is a Frappe app for AXERP that runs the government onboarding workflow for carbon projects on ERP sites. It handles project registration and approval from start to finish.
 
 **Key capabilities**
 - **Self-service registration**: a web portal for registering carbon projects
@@ -87,7 +87,7 @@ Carbon Onboarding is a Frappe/ERPNext app that runs the government onboarding wo
 - **Approval workflows** for project registration and payment confirmation
 - **Admin dashboard** and scheduled reporting
 
-**Tech stack:** Python · JavaScript · HTML/CSS · Frappe / ERPNext
+**Tech stack:** Python · JavaScript · HTML/CSS · Frappe / AXERP
 
 ---
 
